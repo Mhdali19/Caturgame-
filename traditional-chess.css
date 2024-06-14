@@ -1,0 +1,114 @@
+.papan {
+    display: grid;
+    width: 800px;
+    height: 800px;
+    background-color: aqua;
+    border: 2px solid rgb(0, 13, 255);
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+}
+
+.kotak {
+    width: 100px;
+    height: 100px;
+   
+}
+
+.papan .kotak:nth-child(even) {
+    background-color: black;
+}
+
+.papan .kotak:nth-child(odd) {
+    background-color: white;
+}
+
+.papan > .kotak:nth-child(9),
+.papan > .kotak:nth-child(11),
+.papan > .kotak:nth-child(13),
+.papan > .kotak:nth-child(15) {
+    background-color: rgb(1, 1, 1); 
+}
+.papan > .kotak:nth-child(17),
+.papan > .kotak:nth-child(19),
+.papan > .kotak:nth-child(21),
+.papan > .kotak:nth-child(23) {
+    background-color: rgb(255, 255, 255); 
+}
+.papan > .kotak:nth-child(25),
+.papan > .kotak:nth-child(27),
+.papan > .kotak:nth-child(29),
+.papan > .kotak:nth-child(31) {
+    background-color: rgb(0, 0, 0); 
+}
+.papan > .kotak:nth-child(33),
+.papan > .kotak:nth-child(35),
+.papan > .kotak:nth-child(37),
+.papan > .kotak:nth-child(39) {
+    background-color: rgb(255, 255, 255); 
+}
+.papan > .kotak:nth-child(41),
+.papan > .kotak:nth-child(43),
+.papan > .kotak:nth-child(45),
+.papan > .kotak:nth-child(47) {
+    background-color: rgb(0, 0, 0); 
+}
+.papan > .kotak:nth-child(49),
+.papan > .kotak:nth-child(51),
+.papan > .kotak:nth-child(53),
+.papan > .kotak:nth-child(55) {
+    background-color: rgb(255, 255, 255); 
+}
+.papan > .kotak:nth-child(57),
+.papan > .kotak:nth-child(59),
+.papan > .kotak:nth-child(61),
+.papan > .kotak:nth-child(63) {
+    background-color: rgb(0, 0, 0); 
+}
+
+
+
+.papan > .kotak:nth-child(10),
+.papan > .kotak:nth-child(12),
+.papan > .kotak:nth-child(14),
+.papan > .kotak:nth-child(16) {
+    background-color: rgb(255, 255, 255); 
+}
+.papan > .kotak:nth-child(18),
+.papan > .kotak:nth-child(20),
+.papan > .kotak:nth-child(22),
+.papan > .kotak:nth-child(24) {
+    background-color: rgb(0, 0, 0); 
+}
+.papan > .kotak:nth-child(26),
+.papan > .kotak:nth-child(28),
+.papan > .kotak:nth-child(30),
+.papan > .kotak:nth-child(32) {
+    background-color: rgb(255, 255, 255); 
+}
+.papan > .kotak:nth-child(34),
+.papan > .kotak:nth-child(36),
+.papan > .kotak:nth-child(38),
+.papan > .kotak:nth-child(40) {
+    background-color: rgb(0, 0, 0); 
+}
+.papan > .kotak:nth-child(42),
+.papan > .kotak:nth-child(44),
+.papan > .kotak:nth-child(46),
+.papan > .kotak:nth-child(48) {
+    background-color: rgb(255, 255, 255); 
+}
+.papan > .kotak:nth-child(50),
+.papan > .kotak:nth-child(52),
+.papan > .kotak:nth-child(54),
+.papan > .kotak:nth-child(56) {
+    background-color: rgb(0, 0, 0); 
+}
+.papan > .kotak:nth-child(58),
+.papan > .kotak:nth-child(60),
+.papan > .kotak:nth-child(62),
+.papan > .kotak:nth-child(64) {
+    background-color: rgb(255, 255, 255); 
+}
+
+
+

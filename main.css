@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.cardGame {
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.tampilanKanan {
+    width: 500px;
+  
+}
+
+.tampilanKiri {
+    width: 500px;
+  
+}
+
+/* .judulGame {
+    text-align: center;
+} */
+
+.deksripsi {
+    font-size: 20px;
+}
+
+.cardGame img {
+    width: 300px;
+}
